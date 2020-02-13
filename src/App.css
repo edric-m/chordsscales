@@ -1,0 +1,231 @@
+/*-------Generated styles -----*/
+/*.App {
+  text-align: center;
+}
+*/
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+/*-----------Body---------------------*/
+#page-content {
+  /*max-width: 700px;*/
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 10px;
+  display: flex;
+  /*height: 450px;*/
+}
+
+.about-content {
+  max-width: 700px;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 10px;
+  display: block;
+  margin-left: 100px;
+}
+
+/*-----------Nav bar styles-------------*/
+.myNavBar ul {
+  text-align: center;
+  border-style: none none solid none;
+  margin: 0;
+  padding: 0;
+}
+
+.myNavBar li {
+  display: inline-flex;
+}
+
+.myNavBar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.myNavBar li a:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+/*----------- header + footer -------------*/
+footer {
+  /*position: fixed; /*footer always stays in view*/
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(248, 247, 247);
+  color: rgb(199, 199, 199);
+  text-align: center;
+  box-shadow: 0 50vh 0 50vh rgb(248, 247, 247);  /*fill footer to the bottom of page*/
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+/*-----------guitar---------------*/
+.guitar {
+  display: inline-flex;
+  padding-right: 20px;
+}
+
+/*--------app functions ----------*/
+.appFunctions {
+  display: block;
+  max-height: 400px;
+  width: 500px;
+  overflow-y: auto;
+}
+.appFunctionsItem {
+  /*display: flex;*/
+  cursor: pointer;
+  margin-top: 9px;
+}
+.appFunctionsShortItem {
+  display: inline;
+  cursor: pointer;
+}
+.appFunctionsItem:hover { /*probably a better way to do this*/
+  background-color: rgb(223, 223, 223);
+}
+.appFunctionsShortItem:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+/*----------- fretboard -------------*/
+.fretboard:hover {
+  cursor: pointer;
+}
+.note {
+  display: inline-block;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  margin: 0px;
+  min-width: 20px;
+}
+
+.note-scale {
+  background-color: rgb(187, 193, 197);
+  display: inline-block;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  margin: 0px;
+  min-width: 20px;
+}
+
+.note-root {
+  background-color: rgb(148, 147, 147);
+  display: inline-block;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  margin: 0px;
+  min-width: 20px;
+}
+
+.selected-note {
+  color: blue;
+  font-weight: bold;
+}
+
+/*---------tunner-------------------*/
+.tunner input{
+  display: block;
+  margin: 15px;
+  width: 50px;
+}
+
+/*----------key selector ------------*/
+.choose-key li {
+  display: inline;
+  padding: 5px;
+}
+
+.choose-key li:hover {
+  background-color: rgb(187, 193, 197);
+  cursor: pointer;
+}
+
+/*----------note-listener ------------*/
+.note-listener {
+  max-width: 10px; /*TODO: the value doesn't seem to effect the class*/
+}
+
+/*-------floating action button-------*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+	background-color :rgb(124, 151, 240);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.float:hover {
+  cursor: pointer;
+}
+
+.my-float{
+  margin-top:5px;
+  width:48px;
+	height:48px;
+}
+
+.label-container{
+	position:fixed;
+	bottom:48px;
+	left:115px;
+  display:table;
+  max-width: 400px;
+	/*visibility: visible;*/
+}
+
+.label-text{
+	color:#FFF;
+	background:rgba(51,51,51,0.5);
+	display:table-cell;
+	vertical-align:middle;
+	padding:10px;
+	border-radius:3px;
+}
+
+/*------------scroll bar -------------*/
+/* width */
+.appFunctions::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.appFunctions::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.appFunctions::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.appFunctions::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
