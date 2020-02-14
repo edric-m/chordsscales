@@ -1,5 +1,5 @@
 {
-  "homepage": "https://edric-m.github.io/chordsscales/",
+  "homepage": "http://edric-m.github.io/chordsscales/",
   "name": "react-site",
   "version": "0.1.0",
   "private": true,
@@ -7,6 +7,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@fortawesome/react-fontawesome": "^0.1.8",
+    "create-react-app": "^3.3.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-router-dom": "^5.1.2",
