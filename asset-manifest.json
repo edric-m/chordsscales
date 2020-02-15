@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/chordsscales/static/css/main.986a23f6.chunk.css",
+    "main.js": "/chordsscales/static/js/main.6429b9a5.chunk.js",
+    "main.js.map": "/chordsscales/static/js/main.6429b9a5.chunk.js.map",
+    "runtime-main.js": "/chordsscales/static/js/runtime-main.be4a421b.js",
+    "runtime-main.js.map": "/chordsscales/static/js/runtime-main.be4a421b.js.map",
+    "static/js/2.7f57dd29.chunk.js": "/chordsscales/static/js/2.7f57dd29.chunk.js",
+    "static/js/2.7f57dd29.chunk.js.map": "/chordsscales/static/js/2.7f57dd29.chunk.js.map",
+    "index.html": "/chordsscales/index.html",
+    "precache-manifest.5df56213c86f20aa877768a371198276.js": "/chordsscales/precache-manifest.5df56213c86f20aa877768a371198276.js",
+    "service-worker.js": "/chordsscales/service-worker.js",
+    "static/css/main.986a23f6.chunk.css.map": "/chordsscales/static/css/main.986a23f6.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be4a421b.js",
+    "static/js/2.7f57dd29.chunk.js",
+    "static/css/main.986a23f6.chunk.css",
+    "static/js/main.6429b9a5.chunk.js"
+  ]
+}
