@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/chordsscales/static/css/main.986a23f6.chunk.css",
-    "main.js": "/chordsscales/static/js/main.ee75471a.chunk.js",
-    "main.js.map": "/chordsscales/static/js/main.ee75471a.chunk.js.map",
+    "main.js": "/chordsscales/static/js/main.6a2d3ccc.chunk.js",
+    "main.js.map": "/chordsscales/static/js/main.6a2d3ccc.chunk.js.map",
     "runtime-main.js": "/chordsscales/static/js/runtime-main.be4a421b.js",
     "runtime-main.js.map": "/chordsscales/static/js/runtime-main.be4a421b.js.map",
     "static/js/2.f32ca9d0.chunk.js": "/chordsscales/static/js/2.f32ca9d0.chunk.js",
     "static/js/2.f32ca9d0.chunk.js.map": "/chordsscales/static/js/2.f32ca9d0.chunk.js.map",
     "index.html": "/chordsscales/index.html",
-    "precache-manifest.c50edb785dcb85b95d307b0fb24d104f.js": "/chordsscales/precache-manifest.c50edb785dcb85b95d307b0fb24d104f.js",
+    "precache-manifest.1d09574762869009908295f0256005e4.js": "/chordsscales/precache-manifest.1d09574762869009908295f0256005e4.js",
     "service-worker.js": "/chordsscales/service-worker.js",
     "static/css/main.986a23f6.chunk.css.map": "/chordsscales/static/css/main.986a23f6.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.be4a421b.js",
     "static/js/2.f32ca9d0.chunk.js",
     "static/css/main.986a23f6.chunk.css",
-    "static/js/main.ee75471a.chunk.js"
+    "static/js/main.6a2d3ccc.chunk.js"
   ]
 }
