@@ -8,13 +8,12 @@ const AboutPage = () => (
             tuning configuration.</p>
         <p>The scales and chords that you choose can be displayed on the fretboard and will be displayed with 
             any altered tuning you need. The scale notes are coloured gray (scale center is dark gray) and 
-            the chords will be highlighted blue and will be altered immediately according to your 
-            specifications.</p>
+            the chords will be highlighted blue, the changes are displayed immediately.</p>
         <p>When you permit access to your microphone the app can listen to your guitar and identify 
-            what note is being played, then it immediately highlights the note on the fretboard. This feature
-            can help the guitarist to quickly reorient themselves on the fretboard without having to look
+            what note is being played, then it immediately highlights the note on the fretboard display. This 
+            feature can help the guitarist to quickly reorient themselves on the fretboard without having to look
             at it.</p>
-        <p>The app was tested using Google Chrome, a decent laptop, and an acoustic guitar for the microphone.</p>
+        <p>The app was tested using Google Chrome, a decent laptop, and an acoustic guitar.</p>
         <h1>&#47;&#47;TODO:</h1>
         <ul>
             <li><p>In the future it will be able to identify multiple notes 
