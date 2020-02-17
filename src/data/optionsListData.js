@@ -1,7 +1,7 @@
 const notes = ["keyTitle","A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#"];
 const chordRoot = ["rA", "rA#", "rB", "rC", "rC#", "rD", "rD#", "rE", "rF", "rF#", "rG", "rG#"];
 const modes = ["modeTitle","lydian", "ionian", "mixolydian", "dorian", "aeolian", "phrygian", "locrian"];
-//TODO: has issues -> const modes = ["modeTitle","lydian", "ionian", "mixolydian", "dorian", "aeolian", "phrygian", "locrian"];
+//TODO: evidently has issues -> const modes = ["modeTitle","lydian", "ionian", "mixolydian", "dorian", "aeolian", "phrygian", "locrian"];
 const tuningOps = ["tuneTitle", "standard", "NewST", "fifths", "bassStd", "drop d", "DADGAD", "stdRev", "custom"];
 const chordTypes = ["chordTitle","smaj","smin","smaj7","smin7","s7chrd","sdim","saug","ssus2","ssus4","snone","scus"];
 
