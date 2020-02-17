@@ -1,9 +1,25 @@
 import React from 'react';
+import { useSpring } from 'react-spring';
+import { animated as a } from 'react-spring';
+
+const Heading = ({text, order}) => {
+    const props = useSpring({
+        from: {opacity: 0, height: '0px'},
+        to: {opacity: 1, height: '40px'},
+    })
+    return (
+        <>
+        <a.h1 style={props}>
+            {text}
+        </a.h1>
+        </>
+    )
+}
 
 const AboutPage = () => (
     <>
     <div className="about-content">
-        <h1>About</h1>
+        <Heading text={"About"}/>
         <p>This app aims to help guitarists learn the scales and chords on the fretboard on any 
             tuning configuration.</p>
         <p>The scales and chords that you choose can be displayed on the fretboard and will be displayed with 
@@ -14,17 +30,19 @@ const AboutPage = () => (
             highlight what note is being played onto the fretboard. This feature can help the guitarist to 
             quickly reorient themselves on the fretboard without having to look at it.</p>
         <p>The app was tested using Google Chrome, a decent laptop, and an acoustic guitar.</p>
-        <h1>&#47;&#47;TODO:</h1>
+        <Heading text={"//TODO:"} />
         <ul>
             <li><p>In the future it will be able to identify multiple notes 
             being played simultaneously.</p></li>
+            <li><p>Improve and speed up the menu animations. And fix some branching issues.</p></li>
+            <li><p>Change the menu items from plain text to animated cards.</p></li>
+            <li><p>Expand the range/depth of chords that it can identify.</p></li>
             <li><p>Make chord identification more flexible (any combination of notes will show all related 
                 chords).</p></li>
-            <li><p>Improve and speed up the menu animations. And fix some branching issues.</p></li>
-            <li><p>Expand the range/depth of chords that it can identify.</p></li>
             <li><p>More chord, scale, and tuning options will be added to the menu.</p></li>
             <li><p>Play back in real-time what the microphone records in an altered tuning.</p></li>
             <li><p>Inform the user of scales related to the chord chosen.</p></li>
+            <li><p>Draw a headstock beside the fretboard to make it more recognisable.</p></li>
         </ul>
 
     </div>
