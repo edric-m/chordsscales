@@ -10,13 +10,13 @@ import HomePage from './pages/HomePage.js';
 import AboutPage from './pages/AboutPage.js';
 
 class App extends Component {
-  render() {
-    return (
+  render() { 
+    return ( //component={HomePage} exact />
       <Router>
         <div className="App">
           <NavBar />
           <div id="page-content">
-            <Route path="/chordsscales" component={HomePage} exact />
+            <Route path="/chordsscales" component={HomePage} />
             <Route path="/about" component={AboutPage} />
           </div>
           <Footer />

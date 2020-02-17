@@ -50,6 +50,7 @@ class HomePage extends React.Component {
     render() {
         return (
             <> 
+            <div className="guitar-menu">
             <div className="guitar">
                 <div>
                     <form className="tunner">
@@ -78,6 +79,7 @@ class HomePage extends React.Component {
                 tune={this.chooseTuning} 
                 chord={this.chooseChord} 
                 changeDisplay={this.toggleNotes} />
+            </div>
 
             <div className="chordFinder">
                 
