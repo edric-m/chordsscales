@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "266e10fffb694d2522a55180221638d5",
+    "revision": "a1b6b26f5cc9c412866d67d1ff66ca86",
     "url": "/chordsscales/index.html"
   },
   {
-    "revision": "67415c6d70716e080633",
+    "revision": "ce7256f1371ad35edc07",
     "url": "/chordsscales/static/css/main.3cbbaf60.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chordsscales/static/js/2.7fe8d640.chunk.js"
   },
   {
-    "revision": "67415c6d70716e080633",
-    "url": "/chordsscales/static/js/main.aec2a09e.chunk.js"
+    "revision": "ce7256f1371ad35edc07",
+    "url": "/chordsscales/static/js/main.888c306c.chunk.js"
   },
   {
     "revision": "1a18295f0701bcf650f8",
