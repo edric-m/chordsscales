@@ -35,14 +35,15 @@ const AboutPage = () => (
             <li><p>In the future it will be able to identify multiple notes 
             being played simultaneously.</p></li>
             <li><p>Improve and speed up the menu animations. And fix some branching issues.</p></li>
-            <li><p>Change the menu items from plain text to animated cards.</p></li>
-            <li><p>Expand the range/depth of chords that it can identify.</p></li>
             <li><p>Make chord identification more flexible (any combination of notes will show all related 
                 chords).</p></li>
-            <li><p>More chord, scale, and tuning options will be added to the menu.</p></li>
             <li><p>Play back in real-time what the microphone records in an altered tuning.</p></li>
-            <li><p>Inform the user of scales related to the chord chosen.</p></li>
+            <li><p>Expand the range/depth of chords that it can identify.</p></li>
             <li><p>Draw a headstock beside the fretboard to make it more recognisable.</p></li>
+            <li><p>Redesign the menu items, change them from plain text to animated cards.</p></li>
+            <li><p>Inform the user of scales related to the chord chosen.</p></li>
+            <li><p>Chord, scale, and tuning options in the menu will be increaced.</p></li>
+            <li><p>Let the user choose flats, sharps or a combination of both.</p></li>
         </ul>
 
     </div>
