@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/chordsscales/static/css/main.3cbbaf60.chunk.css",
-    "main.js": "/chordsscales/static/js/main.888c306c.chunk.js",
-    "main.js.map": "/chordsscales/static/js/main.888c306c.chunk.js.map",
+    "main.css": "/chordsscales/static/css/main.8763e56d.chunk.css",
+    "main.js": "/chordsscales/static/js/main.c253fb7e.chunk.js",
+    "main.js.map": "/chordsscales/static/js/main.c253fb7e.chunk.js.map",
     "runtime-main.js": "/chordsscales/static/js/runtime-main.be4a421b.js",
     "runtime-main.js.map": "/chordsscales/static/js/runtime-main.be4a421b.js.map",
     "static/js/2.7fe8d640.chunk.js": "/chordsscales/static/js/2.7fe8d640.chunk.js",
     "static/js/2.7fe8d640.chunk.js.map": "/chordsscales/static/js/2.7fe8d640.chunk.js.map",
     "index.html": "/chordsscales/index.html",
-    "precache-manifest.433126c0b11aeb2145e1e05e6a56d737.js": "/chordsscales/precache-manifest.433126c0b11aeb2145e1e05e6a56d737.js",
+    "precache-manifest.52de2f8b3a75dce8a3e26d308de8ed93.js": "/chordsscales/precache-manifest.52de2f8b3a75dce8a3e26d308de8ed93.js",
     "service-worker.js": "/chordsscales/service-worker.js",
-    "static/css/main.3cbbaf60.chunk.css.map": "/chordsscales/static/css/main.3cbbaf60.chunk.css.map"
+    "static/css/main.8763e56d.chunk.css.map": "/chordsscales/static/css/main.8763e56d.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.be4a421b.js",
     "static/js/2.7fe8d640.chunk.js",
-    "static/css/main.3cbbaf60.chunk.css",
-    "static/js/main.888c306c.chunk.js"
+    "static/css/main.8763e56d.chunk.css",
+    "static/js/main.c253fb7e.chunk.js"
   ]
 }
