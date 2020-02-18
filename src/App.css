@@ -122,6 +122,7 @@ footer {
 /*----------- fretboard -------------*/
 .fretboard:hover {
   cursor: pointer;
+  box-shadow: 2px 2px 3px #999;
 }
 .note {
   display: inline-block;
@@ -193,6 +194,7 @@ footer {
 
 .float:hover {
   cursor: pointer;
+  box-shadow: 0px 0px 30px 3px #999;
 }
 
 .my-float{

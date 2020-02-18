@@ -21,7 +21,7 @@ const NoteTile = ({arg, clicked, note}) => {
     })
     return (
         <>
-        <a.div className={arg + " note-scale"} style={props} onClick={clicked}>
+        <a.div className={arg} style={props} onClick={clicked}>
             {note}
         </a.div>
         </>
@@ -57,13 +57,13 @@ class Note extends React.Component {
             selectedClassCSS = "not-selected-note";
         }
         if (this.props.degree[1] === "1") {
-            return <p className={selectedClassCSS + " note-root"} 
-                    onClick={(e) => this.noteClicked()}>{showNotes ? this.props.note : this.props.degree}</p>
+            return (<p className={selectedClassCSS + " note-root"} 
+                    onClick={(e) => this.noteClicked()}>{showNotes ? this.props.note : this.props.degree}</p>)
         } else {
             for ( i = 0; i < 7; i++) {
                 if (scales[this.props.scale][i] === this.props.degree) {
             
-                    return <NoteTile arg={selectedClassCSS} 
+                    return <NoteTile arg={selectedClassCSS + " note-scale"} 
                                     clicked={(e) => this.noteClicked()}
                                     note={showNotes ? this.props.note : this.props.degree} />
                     //    <p className={selectedClassCSS + " note-scale"} 
