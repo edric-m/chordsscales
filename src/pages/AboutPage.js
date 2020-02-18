@@ -34,6 +34,7 @@ const AboutPage = () => (
         <ul>
             <li><p>In the future it will be able to identify multiple notes 
             being played simultaneously.</p></li>
+            <li><p>Adjust the app based on the users device, microphone, security preference.</p></li>
             <li><p>Improve and speed up the menu animations. And fix some branching issues.</p></li>
             <li><p>Make chord identification more flexible (any combination of notes will show all related 
                 chords).</p></li>
