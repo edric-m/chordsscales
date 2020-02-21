@@ -48,7 +48,7 @@ class Fretboard extends React.Component {
                 <FretNumber />
             </div>
             <p><b>Mode:</b> {this.props.keyNote} {this.props.scale} | <b>Key:</b> {pair} major | <b><font color={this.props.chordNotes.length === 0 ? "black" : "blue"}>Chord:</font></b> <Chord notes={this.props.chordNotes} /> ({this.props.chordNotes.toString()})</p>
-            <div className="fretboard">
+            <div className="scale-help">
                 <String chooseNote={this.props.chooseNote} chordNotes={this.props.chordNotes} tuning={this.props.keyNote} keyNote={this.props.keyNote} scale={this.props.scale} showNotes={this.props.showNotes}/>
             </div>
             </>

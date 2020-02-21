@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMicrophone } from '@fortawesome/free-solid-svg-icons';
 
 //TODO : reduce the number of loops for efficiency
+//TODO: https://www.html5rocks.com/en/tutorials/getusermedia/intro/ - check users device and adjust functionality accordingly
 
 let recorder; //recordButton, stopButton, 
 let recordedChunks = [];

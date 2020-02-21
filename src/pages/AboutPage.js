@@ -27,7 +27,7 @@ const AboutPage = () => (
             the chords will be highlighted blue, the changes are displayed immediately. When choosing a chord
             the root of the chord must be the first note selected for now.</p>
         <p>When you permit access to your microphone the app will listen to what the microphone records then 
-            highlight what note is being played onto the fretboard. This feature can help the guitarist to 
+            highlight what notes it can hear on the fretboard. This feature can help the guitarist to 
             quickly reorient themselves on the fretboard without having to look at it.</p>
         <p>The app was tested using Google Chrome, a decent laptop, and an acoustic guitar.</p>
         <Heading text={"//TODO:"} />

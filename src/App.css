@@ -121,6 +121,15 @@ footer {
 }
 
 /*----------- fretboard -------------*/
+/* trialing headstock
+.fretboard {
+  background-image: url("./img/headstock.jpg");
+  background-size: auto 100%;
+  width: 840px;
+  height: 225px;
+  text-align: right;
+}
+*/
 .fretboard:hover {
   cursor: pointer;
   box-shadow: 2px 2px 3px #999;
@@ -131,6 +140,7 @@ footer {
   padding: 10px;
   margin: 0px;
   min-width: 20px;
+  text-align: right;
 }
 
 .note-scale {
@@ -149,6 +159,11 @@ footer {
   padding: 10px;
   margin: 0px;
   min-width: 20px;
+}
+
+.scale-help:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #999;
 }
 
 .selected-note {
