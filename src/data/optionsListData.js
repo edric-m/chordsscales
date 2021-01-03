@@ -2,7 +2,7 @@ const notes = ["keyTitle","A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", 
 const chordRoot = ["rA", "rA#", "rB", "rC", "rC#", "rD", "rD#", "rE", "rF", "rF#", "rG", "rG#"];
 const modes = ["modeTitle","lydian", "ionian", "mixolydian", "dorian", "aeolian", "phrygian", "locrian"];
 //TODO: evidently has issues -> const modes = ["modeTitle","lydian", "ionian", "mixolydian", "dorian", "aeolian", "phrygian", "locrian"];
-const tuningOps = ["tuneTitle", "standard", "NewST", "fifths", "bassStd", "drop d", "DADGAD", "stdRev", "custom"];
+const tuningOps = ["tuneTitle", "standard", "NewST", "fifths", "bassStd", "drop d", "DADGAD", "ukelele", "stdRev", "custom"];
 const chordTypes = ["chordTitle","smaj","smin","smaj7","smin7","s7chrd","sdim","saug","ssus2","ssus4","snone","scus"];
 
 //TODO: fix chord item options, has bugs like remaining on the top of the list
@@ -99,6 +99,7 @@ export default[
     {name: "drop d", content: "drop d", children: [], function: "T=D A D G B E"},
     {name: "DADGAD", content: "Dad-Gad", children: [], function: "T=D A D G A D"},
     {name: "bassStd", content: "standard bass", children: [], function: "T=E A D G X X"},
+    {name: "ukelele", content: "standard ukelele", children: [], function: "T=G C E A X X"},
     {name: "stdRev", content: "standard tuning (reversed)", children: [], function: "T=E B G D A E"},
     {name: "custom", content: "custom", children: ["infoCustomT"], function: []},
 

@@ -45,6 +45,7 @@ const AboutPage = () => (
             <li><p>Inform the user of scales related to the chord chosen.</p></li>
             <li><p>Chord, scale, and tuning options in the menu will be increaced.</p></li>
             <li><p>Let the user choose flats, sharps or a combination of both.</p></li>
+            <li><p>Keep a record of what scales and chords have been chosen, display them, and let the user choose them again.</p></li>
         </ul>
 
     </div>
