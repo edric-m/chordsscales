@@ -19,8 +19,8 @@ class App extends Component {
             <Route path="/chordsscales" component={HomePage} />
             <Route path="/about" component={AboutPage} />
           </div>
-          <Footer />
         </div>
+        <Footer />
       </Router>
       
     );

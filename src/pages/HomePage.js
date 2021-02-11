@@ -51,34 +51,34 @@ class HomePage extends React.Component {
         return (
             <> 
             <div className="guitar-menu">
-            <div className="guitar">
-                <div>
-                    <form className="tunner">
-                        <input type="text" onChange={(e) => this.tuneString(5, e.target.value)}/>
-                        <input type="text" onChange={(e) => this.tuneString(4, e.target.value)}/>
-                        <input type="text" onChange={(e) => this.tuneString(3, e.target.value)}/>
-                        <input type="text" onChange={(e) => this.tuneString(2, e.target.value)}/>
-                        <input type="text" onChange={(e) => this.tuneString(1, e.target.value)}/>
-                        <input type="text" onChange={(e) => this.tuneString(0, e.target.value)}/>
-                    </form>
+                <div className="guitar">
+                    <div>
+                        <form className="tunner">
+                            <input type="text" onChange={(e) => this.tuneString(5, e.target.value)}/>
+                            <input type="text" onChange={(e) => this.tuneString(4, e.target.value)}/>
+                            <input type="text" onChange={(e) => this.tuneString(3, e.target.value)}/>
+                            <input type="text" onChange={(e) => this.tuneString(2, e.target.value)}/>
+                            <input type="text" onChange={(e) => this.tuneString(1, e.target.value)}/>
+                            <input type="text" onChange={(e) => this.tuneString(0, e.target.value)}/>
+                        </form>
+                    </div>
+                    <div>
+                        <Fretboard 
+                            chooseNote={this.chooseChord} 
+                            chordNotes={this.state.chord} 
+                            keyNote={this.state.chosenNote} 
+                            scale={this.state.scaleType} 
+                            tuning={this.state.tuning} 
+                            showNotes={this.state.showNotes} />
+                    </div>
                 </div>
-                <div>
-                    <Fretboard 
-                        chooseNote={this.chooseChord} 
-                        chordNotes={this.state.chord} 
-                        keyNote={this.state.chosenNote} 
-                        scale={this.state.scaleType} 
-                        tuning={this.state.tuning} 
-                        showNotes={this.state.showNotes} />
-                </div>
-            </div>
 
-            <OptionsList 
-                center={this.chooseKey} 
-                scale={this.chooseScale} 
-                tune={this.chooseTuning} 
-                chord={this.chooseChord} 
-                changeDisplay={this.toggleNotes} />
+                <OptionsList 
+                    center={this.chooseKey} 
+                    scale={this.chooseScale} 
+                    tune={this.chooseTuning} 
+                    chord={this.chooseChord} 
+                    changeDisplay={this.toggleNotes} />
             </div>
 
             <div className="chordFinder">
